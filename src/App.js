@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div style={{backgroundColor:`${color}`}}>
+    <div style={{backgroundColor:`${color}`, position:'absolute', width:`100%`,height:'100%'}}>
       <h1> Welcome to React Redux Application </h1>
       <h3> The App color is {color} </h3>
       <h3> The App developer is {developer} </h3>
